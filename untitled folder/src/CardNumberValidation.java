@@ -1,4 +1,4 @@
-package main;
+
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 
-public class Main {
+public class CardNumberValidation {
 
 	
 	public static ArrayList<int[]> cardNumbers = new ArrayList<int[]>();
@@ -17,6 +17,7 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+//		String file = args[0];
 		String file = "/Users/krasimirbonchev/Documents/javaworkspace/CNV/untitled folder/src/test";
 		// TODO Auto-generated method stub
 		BufferedReader br;
